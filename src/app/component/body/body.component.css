@@ -1,0 +1,11 @@
+.headder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px;
+    margin-top: 0;
+    
+}
+p{
+    font-size: large;
+}

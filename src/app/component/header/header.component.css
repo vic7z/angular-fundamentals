@@ -2,7 +2,7 @@
     background: white;
     margin: 1em;
     padding-left: 1em;
-    padding-top: .025px;
+    padding-top: 5px;
     padding-bottom: .025px;
     display: flex;
     place-content: space-between;
@@ -12,6 +12,7 @@ p{
     font-weight: bold;
     color: black;
     font-size: 1.2em;
+    padding: .5em;
 }
 span{
     color: rgba(13, 131, 228, 0.61);
@@ -21,7 +22,7 @@ a{
     text-decoration: none;
     display: block;
     margin: 1em;
-    padding-top: 4.5px;
+    padding-top: .2px;
     font-size: 1em;
     cursor: pointer;
 }
