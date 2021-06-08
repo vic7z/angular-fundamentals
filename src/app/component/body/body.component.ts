@@ -11,5 +11,8 @@ export class BodyComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  
+  onToggle():void{
+    console.log("on toggle")
+  }
 }
