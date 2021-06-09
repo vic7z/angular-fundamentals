@@ -14,12 +14,12 @@
                             </div>
                             <div class="widget-49-meeting-info">
                                 <span class="widget-49-pro-title">{{task.text}}</span>
-                                <span class="widget-49-meeting-time">{{task.date}}</span>
+                                <span class="widget-49-meeting-time">{{task.day}}</span>
                             </div>
                         </div>
                        <div class="text">{{task.text}}</div>
                         <div class="widget-49-meeting-action">
-                            <fa-icon [icon]="faCoffee"></fa-icon>
+                            <fa-icon [icon]="faCoffee" (click)="onDelete(task)"></fa-icon>
                         </div>
                     </div>
                 </div>
