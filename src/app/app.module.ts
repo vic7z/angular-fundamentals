@@ -7,6 +7,8 @@ import { BodyComponent } from './component/body/body.component';
 import { ButtonComponent } from './component/button/button.component';
 import { TasksComponent } from './component/tasks/tasks.component';
 import { TaskItemComponent } from './component/task-item/task-item.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+
 
 
 
@@ -20,7 +22,8 @@ import { TaskItemComponent } from './component/task-item/task-item.component';
     TaskItemComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

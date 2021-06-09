@@ -304,14 +304,13 @@ margin-left: .5rem;
 
 .widget-49 .widget-49-meeting-action {
 text-align: right;
+padding-right: .5em;
+padding-bottom: .25em;
 }
 
 .widget-49 .widget-49-meeting-action a {
 text-transform: uppercase;
 }
-p{
+.text{
   padding: 1em;
-}
-.test{
-  padding-left: .5em;
 }
