@@ -314,3 +314,7 @@ text-transform: uppercase;
 .text{
   padding: 1em;
 }
+.container.reminder {
+  border-left: 5px solid green;
+  border-radius: .8em;
+}

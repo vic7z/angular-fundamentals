@@ -11,6 +11,7 @@ import { faTrash } from '@fortawesome/free-solid-svg-icons';
 export class TaskItemComponent implements OnInit {
   @Input() task:Task;
   @Output() onDeletetask:EventEmitter<Task>=new EventEmitter();
+  @Output() onTogglebutton:EventEmitter<Task>=new EventEmitter();
 
   faCoffee = faTrash;
 
@@ -21,6 +22,9 @@ export class TaskItemComponent implements OnInit {
 
   onDelete(task:Task):void{
    this.onDeletetask.emit(task);
+  }
+  onToggle(task:Task):void{
+    this.onTogglebutton.emit(task);
   }
 
 }
